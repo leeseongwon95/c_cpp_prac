@@ -60,10 +60,10 @@ int main() {
   double mok = a / b;
   
 
-  printf("%f + %f = %f\n", a, b, hap);
-  printf("%f - %f = %f\n", a, b, cha);
-  printf("%f * %f = %f\n", a, b, gop);
-  printf("%f / %f = %f\n", a, b, mok);
+  printf("%f + %f = %lf\n", a, b, hap);
+  printf("%f - %f = %lf\n", a, b, cha);
+  printf("%f * %f = %lf\n", a, b, gop);
+  printf("%f / %f = %lf\n", a, b, mok);
 
 // 부동소수점 (floating point)
   
