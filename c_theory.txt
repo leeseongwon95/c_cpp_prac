@@ -40,3 +40,8 @@ unsigned, signed
 void: 리턴값이 없는 함수의 자료형
 
 bool: 참, 거짓을 저장 (=char)
+
+char : 1바이트 정수형 (int : 4바이트)
+character : 문자 (반각문자 ABCabc12345+_/\#%) , 한자 일본어 등등 안됨
+
+ASCII : American Standard (문자 - 숫자)
