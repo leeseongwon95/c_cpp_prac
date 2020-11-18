@@ -1,0 +1,5 @@
+{
+  "editor.tokenColorCustomizations": { "comments": "#d0c5d4" },
+  "editor.fontSize": 12,
+  "editor.formatOnSaveMode": "file"
+}

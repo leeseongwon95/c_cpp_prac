@@ -7,6 +7,7 @@
 // D 60 ~ 69
 // E 50 ~ 59
 // F 49 이하
+
 int main() {
   int score;
   scanf("%d", &score);
@@ -52,6 +53,8 @@ int main() {
     } else {
       printf("%d ", i);
     }
+
+
   } 
   printf("\n");
 

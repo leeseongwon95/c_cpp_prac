@@ -4,7 +4,8 @@ int main(){
   char a = 67;
 
   printf("%c\n",a); // 'C' = 67
-
+  
+  
   char a;
   scanf("%c", &a);
   printf("%c의 ASCII 숫자 값 : %d\n", a, a);

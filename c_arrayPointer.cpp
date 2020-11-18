@@ -58,7 +58,7 @@ int main() {
     3. ptr + 1 == ptr에 sizeof(*ptr)을 더한 값
   */
 
-  int arr[3] = {1, 2, 3}; // 12 바이트 임
+  int arr[3] = {1, 2, 3}; // 12 바이트 
 
   printf("arr = %p\n", arr);
   printf("arr + 1 = %p\n", arr + 1);
