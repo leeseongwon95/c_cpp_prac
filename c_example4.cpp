@@ -32,11 +32,11 @@ struct Point {
 
 
 int main() {
-  Point p = { 3, 4 }; // int p[2] = { 3, 4 };
-  PointPtr pp = &p; // Point *pp =&p;
+  // Point p = { 3, 4 }; // int p[2] = { 3, 4 };
+  // PointPtr pp = &p; // Point *pp =&p;
 
-  printf("%d %d %d\n", **pp, (*pp)[0], (*pp)[1]); // 3 3 4 
-  // *(*pp) == *p == p[0]
+  // printf("%d %d %d\n", **pp, (*pp)[0], (*pp)[1]); // 3 3 4 
+  // // *(*pp) == *p == p[0]
 
   Point pos = { 3, 4 };
   pos.pSwap();
