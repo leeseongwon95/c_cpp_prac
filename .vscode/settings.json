@@ -2,5 +2,8 @@
   "editor.tokenColorCustomizations": { "comments": "#d0c5d4" },
   "editor.fontSize": 12,
   "editor.formatOnSave": true,
-  "clang-format.executable": "/absolute/path/to/clang-format"
+  "clang-format.executable": "/absolute/path/to/clang-format",
+  "files.associations": {
+    "iostream": "cpp"
+  }
 }
