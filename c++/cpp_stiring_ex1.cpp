@@ -11,7 +11,7 @@
 
 using namespace std;
 
-/* 
+
   int main() {
   string name;
   int score;
@@ -22,12 +22,12 @@ using namespace std;
   cin >> score;
 
   cout << name << "님의 점수는" << score << "점입니다." << endl;
-} */
+} 
 
 /*
   2. 범위 기반 for 문을 사용하여 이차원 배열을 출력해보세요.
 */
-/* int main() {
+ int main() {
   int arr[2][3] = {{ 1, 2, 3 },{ 4, 5, 6 }};
 
   // 작성
@@ -37,7 +37,7 @@ using namespace std;
     }
     cout << endl;
   }
-  
+
   // 원리
   for (int(*ln)[3] = arr; ln < arr + 2; ln++) {
     for (int *c = *ln; c < *ln + 3; c++) {
@@ -46,7 +46,7 @@ using namespace std;
     cout << endl;
   }
   
-}*/
+}
 
 /*
   3. 다음과 같은 함수 정의에서 컴파일 오류가 나는 이유를 찾아보세요.
@@ -55,11 +55,10 @@ using namespace std;
 // overloading 시킴 
 // 디폴트 매개변수를 오른쪽부터 시작해야함
 // 변수의 개수가 똑같음 그래서 위에껄 한건지 아래껄 한건지 모름 그래서 오버로딩이 안됨
-/*
+
 void drawRectangle(int l, int r, int t, int b) {
 
 }
 void drawRactangle(int x = 0, int y = 0, int w, int h) {
 
 }
-*/
